@@ -1,4 +1,4 @@
-FROM debian as builder
+FROM linux/arm/v6  as builder
 
 LABEL maintainer="Nicolas LAURENT <docker@aegypius.com>"
 
