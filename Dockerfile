@@ -1,4 +1,4 @@
-FROM linux/arm/v6  as builder
+FROM arm32v6/alpine  as builder
 
 LABEL maintainer="Nicolas LAURENT <docker@aegypius.com>"
 
