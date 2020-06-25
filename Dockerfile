@@ -1,6 +1,6 @@
-FROM arm32v6/alpine  as builder
+FROM arm32v7/debian as builder
 
-LABEL maintainer="Nicolas LAURENT <docker@aegypius.com>"
+LABEL maintainer="Jean-Baptiste BERNARD <docker@mokuh.com>"
 
 RUN apt update -qy && apt install -y curl lzma
 
